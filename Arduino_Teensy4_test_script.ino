@@ -4,13 +4,12 @@ The LEDs connected to the serial ports are active-low.  This means
 that you need to set the pinmode to OUTPUT and then use digitalwrite
 to set the pin LOW in order to turn them on.  To turn them off, use
 digitalwrite to set the pin HIGH, or use pinmode to set the pin to INPUT mode.
-Pins D13 (built-in LED pin) and D24 (bluetooth module STATE pin) are
+Pins D13 (built-in LED pin) and D30 (bluetooth module STATE pin) are
 active-high and are turned on and off like standard LEDs.
 
 TX1/RX1 are checked once before enabling Serial1 port due to the fact that
 the Teensy does not handle disabling and re-enabling serial ports correctly.
 
-Press the RESET button to restart the sketch.
 */
 char trash = "";
 
