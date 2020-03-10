@@ -3,7 +3,7 @@ Version 1.0
 
 MicroSD Card Slot
 -----------------
-The SD card socket used SDIO and requires the flat-flex cable to be installed.  Set the chip-select to "= BUILTIN_SDCARD" when using the Teensy 4 examples from Teensyduino.  This does not appear to work in the standard SD examples which I don't think support SDIO.
+The SD card socket used SDIO and requires the flat-flex cable to be installed.  Set chip-select to "= BUILTIN_SDCARD" when using the Teensy 4 examples from Teensyduino.  This does not appear to work in the standard SD examples which I don't think support SDIO.
 
 The SD card slot has been successfully tested with 16 and 32GB cards using the SD examples included for the Teensy 4 in the latest teensyduino, which can read either FAT16/32 or exFAT formatted cards.
 
