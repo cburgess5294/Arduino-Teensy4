@@ -1,6 +1,11 @@
 # Arduino-Teensy4
 Version 1.0
 
+Assembling the Board
+--------------------
+
+You can find the full assembly instructions here:  https://www.instructables.com/id/Arduino-Teensy4-for-Teensy-40-Full-Assembly/
+
 MicroSD Card Slot
 -----------------
 The SD card socket used SDIO and requires the flat-flex cable to be installed.  Set chip-select to "= BUILTIN_SDCARD" when using the Teensy 4 examples from Teensyduino.  This does not appear to work in the standard SD examples which I don't think support SDIO.
